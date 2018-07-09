@@ -1,0 +1,9 @@
+E:\VSProjects\itvdn\tst2\tst2\bin\Debug\netcoreapp1.1\tst2.deps.json
+E:\VSProjects\itvdn\tst2\tst2\bin\Debug\netcoreapp1.1\tst2.runtimeconfig.json
+E:\VSProjects\itvdn\tst2\tst2\bin\Debug\netcoreapp1.1\tst2.runtimeconfig.dev.json
+E:\VSProjects\itvdn\tst2\tst2\obj\Debug\netcoreapp1.1\tst2.AssemblyInfo.cs
+E:\VSProjects\itvdn\tst2\tst2\bin\Debug\netcoreapp1.1\tst2.dll
+E:\VSProjects\itvdn\tst2\tst2\bin\Debug\netcoreapp1.1\tst2.pdb
+E:\VSProjects\itvdn\tst2\tst2\obj\Debug\netcoreapp1.1\tst2.dll
+E:\VSProjects\itvdn\tst2\tst2\obj\Debug\netcoreapp1.1\tst2.pdb
+E:\VSProjects\itvdn\tst2\tst2\obj\Debug\netcoreapp1.1\tst2.csprojResolveAssemblyReference.cache

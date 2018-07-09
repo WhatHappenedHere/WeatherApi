@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WeatherApi</name>
+    </assembly>
+    <members>
+        <member name="M:tst2.Controllers.ValuesController.GetFrcstRes(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="cityName"></param>
+            <returns>A newly created string with foreast</returns>
+        </member>
+        <member name="M:tst2.Controllers.ValuesController.GetCurRes(System.String)">
+            <summary>
+            Request that fill created weather model
+            </summary>
+            <param cityName = "Dnipropetrovsk"></param>
+            /// <returns>A newly created RootObject</returns>
+        </member>
+        <member name="M:tst2.Controllers.ValuesController.Get">
+             <summary>
+             Request that returns the current weather in city
+             Can be modified for changing parametr "city"
+             </summary>
+             /// <remarks>
+             Sample request:
+            
+                 GET /GetCurrentWeather
+                 {
+                    "weather.Result.Name": "Dnipropetrovsk",
+                    "weather.Result.Country": "UA",
+                    "weather.Result.Datetime": time of last weather data,
+                    "weather.Result.Temperature": temperature value,
+                    "weather.Result.speed": wind speed value,
+                    "weather.Result.cloud": cloudiness
+                 }
+            
+             </remarks>
+             /// <returns>Text string</returns>
+             <response code="200">Returns the newly weather report</response>
+             <response code="404">If used returned object is null</response> 
+        </member>
+        <member name="M:tst2.Controllers.ValuesController.GetForecast">
+             <summary>
+             A request that returns  5 day forecast
+             It includes weather data every 3 hours
+             Can be modified for changing parametr "city"
+             </summary>
+             /// /// <remarks>
+             Request result will contain:
+            
+               GET /GetForecast
+                 {
+                    "rs": Result string   
+                 }  
+            
+             </remarks>
+             /// <returns>Text string</returns>
+             <response code="200">Returns the newly weather report</response>
+             <response code="404">If the string is null</response> 
+        </member>
+    </members>
+</doc>
